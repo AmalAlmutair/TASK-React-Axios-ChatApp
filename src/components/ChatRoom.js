@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import MessageItem from "./MessageItem";
+import rooms from "../RoomsStore";
 
 const ChatRoom = ({ rooms }) => {
   const roomSlug = useParams().roomSlug;
